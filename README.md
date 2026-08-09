@@ -1,22 +1,23 @@
 # 🚀 3D Developer Portfolio Website (React + TypeScript + Three.js)
 
-[![3D portfolio preview (click to watch video)](./Screenshot_2026-04-08_22-10-00.png)](./screen-capture%20(13).webm)
+[![3D portfolio preview](./Screenshot_2026-04-08_22-10-00.png)](https://github.com/raunak0999/portfolio)
 
 A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
 
-If you’re a developer looking for a **portfolio template** that feels premium, interactive, and memorable—this repo is for you.
+Interactive, premium developer portfolio tailored for **Raunak Singh** - Full Stack & Intelligent Systems Engineer.
 
-> Live preview: https://www.redoyanulhaque.me/
+> Live repository: https://github.com/raunak0999/portfolio
 
 ---
 
 ## ✨ Highlights
 
 - **3D / WebGL experience** powered by **Three.js**
-- Smooth animations with **GSAP**
+- Smooth scrolling powered by **Lenis** + GSAP ticker synchronization
 - Modern **React + TypeScript** codebase
-- Fast, responsive UI (desktop + mobile)
-- Designed for developers, engineers, programmers, and creators
+- Fast, responsive UI (fully optimized for desktop + mobile views)
+- Custom project showcases linking directly to live GitHub repositories
+- Direct interactive resume opening integration
 
 ---
 
@@ -25,7 +26,8 @@ If you’re a developer looking for a **portfolio template** that feels premium,
 - **React**
 - **TypeScript**
 - **Three.js / WebGL**
-- **GSAP**
+- **GSAP (ScrollTrigger)**
+- **Lenis Smooth Scroll**
 - **HTML / CSS / JavaScript**
 
 ---
@@ -35,8 +37,8 @@ If you’re a developer looking for a **portfolio template** that feels premium,
 ### 1) Clone
 
 ```bash
-git clone https://github.com/red1-for-hek/portfolio-website.git
-cd portfolio-website
+git clone https://github.com/raunak0999/portfolio.git
+cd portfolio
 ```
 
 ### 2) Install
@@ -59,38 +61,13 @@ npm run build
 
 ---
 
-## 🧩 Customize (Quick Guide)
-
-Typical things you’ll want to update:
-
-- **Your name + hero section text**
-- **Projects list**
-- **Social links** (GitHub, LinkedIn, email)
-- **SEO meta title/description**
-
----
-
-## ⭐ Support
-
-If you found this useful:
-
-- Please **star** the repository (it helps a lot)
-- Share it with a friend who needs a portfolio template
-- Sponsor via the **Sponsor** button on GitHub (if available in your region)
-
----
-
 ## 🤝 Connect
 
-- LinkedIn: https://www.linkedin.com/in/red1-for-hek/
-
----
-
-## 🏷️ Recommended GitHub Topics (add in repo settings)
-
-Add these topics to improve GitHub search visibility:
-
-`portfolio` `developer-portfolio` `portfolio-website` `portfolio-template` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `frontend` `vite`
+- GitHub: https://github.com/raunak0999
+- LinkedIn: https://www.linkedin.com/in/raunak-singh-b8ba512b3/
+- Email: raunakmed123@gmail.com
+- Twitter (X): https://x.com/Raunaksing60556
+- LeetCode: https://leetcode.com/u/raunak-/
 
 ---
 
