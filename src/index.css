@@ -19,7 +19,7 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   --accentColor: #c2a4ff;
-  --backgroundColor: #09070f; /* Experiemental: Deep dark space indigo-purple instead of #0b080c */
+  --backgroundColor: #121212; /* Matte Black background */
   --vh: 100vh;
   --vh: 100svh;
 }
