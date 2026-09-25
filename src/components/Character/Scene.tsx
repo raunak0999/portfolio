@@ -32,6 +32,7 @@ const Scene = () => {
         antialias: window.devicePixelRatio < 2,
         powerPreference: "high-performance",
       });
+      renderer.setClearColor(0x000000, 0); // fully transparent background
       renderer.setSize(container.width, container.height);
       renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
       renderer.toneMapping = THREE.ACESFilmicToneMapping;

@@ -29,6 +29,28 @@
   color: #ccc;
   font-weight: 600;
   cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.header ul li::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0%;
+  height: 1.5px;
+  background: var(--accentColor);
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+.header ul li:hover::after {
+  width: 100%;
+}
+
+.header ul li:hover {
+  color: var(--accentColor);
 }
 .navbar-connect {
   position: absolute;

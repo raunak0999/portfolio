@@ -1,3 +1,11 @@
+/* Full-width section wrapper — transparent so character shows through */
+.whatIDO-section {
+  width: 100%;
+  position: relative;
+  z-index: 20;
+  background-color: transparent;
+}
+
 .whatIDO {
   display: flex;
   align-items: center;
@@ -9,7 +17,6 @@
   width: var(--cWidth);
   max-width: 1920px;
   margin: auto;
-  z-index: 9;
 }
 
 .what-box {

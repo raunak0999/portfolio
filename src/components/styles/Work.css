@@ -13,6 +13,14 @@
   height: 100vh;
   box-sizing: border-box;
   will-change: transform;
+  position: relative;
+  z-index: 20;
+  background-color: var(--backgroundColor);
+  background-image: url('/topo-bg.svg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .work-container {
@@ -38,10 +46,20 @@
   flex-direction: column;
   width: 600px;
   box-sizing: border-box;
-  border-right: 1px solid #363636;
+  border-right: 1px solid #2a2a2a;
   flex-shrink: 0;
   gap: 50px;
   justify-content: start;
+  transition: box-shadow 0.4s ease, background 0.4s ease;
+}
+
+.work-box:hover {
+  box-shadow: inset 0 0 60px rgba(194, 164, 255, 0.06);
+}
+
+.work-box:hover .work-title h3 {
+  color: var(--accentColor);
+  transition: color 0.3s ease;
 }
 
 .work-flex .work-box:nth-child(even) {
@@ -113,7 +131,7 @@
   position: absolute;
   bottom: 10px;
   right: 10px;
-  background-color: var(--backgroundColor);
+  background-color: #0d0d0d;
   width: 50px;
   border-radius: 50px;
   height: 50px;

@@ -31,6 +31,12 @@ const Landing = ({ children }: PropsWithChildren) => {
           </div>
         </div>
         {children}
+        {/* Scroll down indicator */}
+        <div className="scroll-indicator">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </>
   );

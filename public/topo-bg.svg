@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <style>
+      .c  { fill: none; stroke: rgba(255,255,255,0.065); stroke-width: 1; }
+      .cl { fill: none; stroke: rgba(255,255,255,0.04);  stroke-width: 0.8; }
+    </style>
+  </defs>
+
+  <!-- Hill 1: Upper-left cluster -->
+  <g transform="rotate(-12, 280, 270)">
+    <ellipse class="c" cx="280" cy="270" rx="390" ry="210"/>
+    <ellipse class="c" cx="280" cy="270" rx="340" ry="182"/>
+    <ellipse class="c" cx="280" cy="270" rx="290" ry="154"/>
+    <ellipse class="c" cx="280" cy="270" rx="240" ry="126"/>
+    <ellipse class="c" cx="280" cy="270" rx="190" ry="99"/>
+    <ellipse class="c" cx="280" cy="270" rx="140" ry="72"/>
+    <ellipse class="c" cx="280" cy="270" rx="90"  ry="46"/>
+    <ellipse class="c" cx="280" cy="270" rx="42"  ry="22"/>
+  </g>
+
+  <!-- Hill 2: Bottom-right cluster -->
+  <g transform="rotate(16, 1180, 710)">
+    <ellipse class="c" cx="1180" cy="710" rx="370" ry="195"/>
+    <ellipse class="c" cx="1180" cy="710" rx="320" ry="168"/>
+    <ellipse class="c" cx="1180" cy="710" rx="270" ry="142"/>
+    <ellipse class="c" cx="1180" cy="710" rx="220" ry="116"/>
+    <ellipse class="c" cx="1180" cy="710" rx="170" ry="90"/>
+    <ellipse class="c" cx="1180" cy="710" rx="120" ry="63"/>
+    <ellipse class="c" cx="1180" cy="710" rx="70"  ry="37"/>
+    <ellipse class="c" cx="1180" cy="710" rx="28"  ry="15"/>
+  </g>
+
+  <!-- Hill 3: Upper-right (partly off-screen) -->
+  <g transform="rotate(-25, 1400, 60)">
+    <ellipse class="c" cx="1400" cy="60" rx="280" ry="150"/>
+    <ellipse class="c" cx="1400" cy="60" rx="232" ry="124"/>
+    <ellipse class="c" cx="1400" cy="60" rx="184" ry="98"/>
+    <ellipse class="c" cx="1400" cy="60" rx="136" ry="73"/>
+    <ellipse class="c" cx="1400" cy="60" rx="88"  ry="47"/>
+    <ellipse class="c" cx="1400" cy="60" rx="40"  ry="21"/>
+  </g>
+
+  <!-- Hill 4: Centre-right -->
+  <g transform="rotate(9, 1010, 360)">
+    <ellipse class="c" cx="1010" cy="360" rx="230" ry="135"/>
+    <ellipse class="c" cx="1010" cy="360" rx="186" ry="109"/>
+    <ellipse class="c" cx="1010" cy="360" rx="142" ry="83"/>
+    <ellipse class="c" cx="1010" cy="360" rx="98"  ry="58"/>
+    <ellipse class="c" cx="1010" cy="360" rx="54"  ry="32"/>
+    <ellipse class="c" cx="1010" cy="360" rx="22"  ry="13"/>
+  </g>
+
+  <!-- Hill 5: Bottom-left (partly off-screen) -->
+  <g transform="rotate(-7, 30, 860)">
+    <ellipse class="c" cx="30"  cy="860" rx="300" ry="155"/>
+    <ellipse class="c" cx="30"  cy="860" rx="252" ry="130"/>
+    <ellipse class="c" cx="30"  cy="860" rx="204" ry="106"/>
+    <ellipse class="c" cx="30"  cy="860" rx="156" ry="81"/>
+    <ellipse class="c" cx="30"  cy="860" rx="108" ry="56"/>
+    <ellipse class="c" cx="30"  cy="860" rx="60"  ry="31"/>
+  </g>
+
+  <!-- Hill 6: Mid-left -->
+  <g transform="rotate(20, 130, 530)">
+    <ellipse class="c" cx="130" cy="530" rx="170" ry="100"/>
+    <ellipse class="c" cx="130" cy="530" rx="133" ry="78"/>
+    <ellipse class="c" cx="130" cy="530" rx="96"  ry="56"/>
+    <ellipse class="c" cx="130" cy="530" rx="59"  ry="35"/>
+    <ellipse class="c" cx="130" cy="530" rx="26"  ry="15"/>
+  </g>
+
+  <!-- Hill 7: Centre-bottom -->
+  <g transform="rotate(-5, 680, 780)">
+    <ellipse class="c" cx="680" cy="780" rx="250" ry="120"/>
+    <ellipse class="c" cx="680" cy="780" rx="205" ry="98"/>
+    <ellipse class="c" cx="680" cy="780" rx="160" ry="76"/>
+    <ellipse class="c" cx="680" cy="780" rx="115" ry="55"/>
+    <ellipse class="c" cx="680" cy="780" rx="70"  ry="34"/>
+    <ellipse class="c" cx="680" cy="780" rx="30"  ry="14"/>
+  </g>
+
+  <!-- Hill 8: Centre-top -->
+  <g transform="rotate(10, 720, 130)">
+    <ellipse class="c" cx="720" cy="130" rx="200" ry="110"/>
+    <ellipse class="c" cx="720" cy="130" rx="160" ry="88"/>
+    <ellipse class="c" cx="720" cy="130" rx="120" ry="66"/>
+    <ellipse class="c" cx="720" cy="130" rx="80"  ry="44"/>
+    <ellipse class="c" cx="720" cy="130" rx="40"  ry="22"/>
+  </g>
+
+  <!-- Flowing ridge lines spanning full width -->
+  <path class="cl" d="M0,340 C160,300 320,360 500,390 C680,420 840,380 1020,410 C1180,436 1310,460 1440,445"/>
+  <path class="cl" d="M0,360 C160,318 320,378 500,410 C680,442 840,400 1020,430 C1180,456 1310,480 1440,465"/>
+  <path class="cl" d="M0,380 C160,336 320,398 500,430 C680,462 840,420 1020,450 C1180,476 1310,500 1440,485"/>
+  <path class="cl" d="M0,400 C160,354 320,418 500,450 C680,482 840,440 1020,470 C1180,496 1310,520 1440,505"/>
+  <path class="cl" d="M0,320 C160,282 320,342 500,372 C680,400 840,360 1020,390 C1180,416 1310,440 1440,425"/>
+
+  <!-- Upper flowing lines -->
+  <path class="cl" d="M0,140 C200,110 380,170 560,152 C740,134 900,100 1080,128 C1240,152 1350,140 1440,134"/>
+  <path class="cl" d="M0,160 C200,130 380,190 560,172 C740,154 900,120 1080,148 C1240,172 1350,160 1440,154"/>
+  <path class="cl" d="M0,120 C200,90  380,150 560,132 C740,114 900,80  1080,108 C1240,132 1350,120 1440,114"/>
+
+  <!-- Lower flowing lines -->
+  <path class="cl" d="M0,660 C180,630 360,680 550,660 C740,640 900,670 1100,655 C1280,642 1380,650 1440,648"/>
+  <path class="cl" d="M0,680 C180,650 360,700 550,680 C740,660 900,690 1100,675 C1280,662 1380,670 1440,668"/>
+  <path class="cl" d="M0,700 C180,670 360,720 550,700 C740,680 900,710 1100,695 C1280,682 1380,690 1440,688"/>
+</svg>

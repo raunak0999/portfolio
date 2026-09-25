@@ -18,14 +18,16 @@ export const config = {
         {
             position: "Software Intern",
             company: "UbiqTech Consulting Private Limited",
-            period: "Ongoing",
+            period: "June 2026 – July 2026",
             location: "India",
-            description: "Assisting in front-end system modularizations and styling updates across client dashboards.",
+            description: "Contributed to an AI manufacturing quotation platform generating instant quotes and DFM insights for CNC, laser cutting, and bending from CAD files (STEP, DXF). Built a FastAPI & GNN PoC to detect STEP model features, optimized CNC time estimations, and developed Next.js dashboards for real-time quotation updates.",
             responsibilities: [
-                "Collaborating with backend developers to integrate server endpoints and ensure optimal API response rendering.",
-                "Designing and refining responsive pages to boost client dashboard engagement."
+                "Contributed to an AI quotation platform generating instant quotes and DFM insights from CAD files (STEP, DXF, DWG).",
+                "Built a PoC integrating an AAGNet Graph Neural Network with FastAPI to detect manufacturing features from STEP models.",
+                "Optimized CNC machining time estimation and quotation workflows by combining AI validation with deterministic cost logic.",
+                "Developed REST APIs with FastAPI, Pydantic, PostgreSQL, and built real-time quotation features in Next.js/React."
             ],
-            technologies: ["React.js", "Node.js", "Express.js", "HTML", "CSS", "JavaScript"]
+            technologies: ["Python", "FastAPI", "PostgreSQL", "Next.js", "React", "TypeScript", "Tailwind CSS", "GNNs", "OpenCASCADE", "Redis"]
         }
     ],
     projects: [

@@ -19,9 +19,16 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   --accentColor: #c2a4ff;
-  --backgroundColor: #121212; /* Matte Black background */
+  --accentColorDim: rgba(194, 164, 255, 0.6);
+  --glowColor: rgba(194, 164, 255, 0.35);
+  --backgroundColor: #0d0d0d;
   --vh: 100vh;
   --vh: 100svh;
+}
+
+::selection {
+  background: rgba(194, 164, 255, 0.3);
+  color: #ffffff;
 }
 
 h1,
@@ -88,7 +95,7 @@ main {
 body {
   margin: 0;
   height: auto;
-  background-color: var(--backgroundColor);
+  background-color: #0d0d0d;
   flex-grow: 1;
   --cWidth: calc(100% - 30px);
   --cMaxWidth: 1920px;
@@ -107,6 +114,12 @@ body {
   width: 100%;
   margin: auto;
   position: relative;
+  background-color: #0d0d0d;
+  background-image: url('/topo-bg.svg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container1 {

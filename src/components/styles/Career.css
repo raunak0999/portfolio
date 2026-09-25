@@ -1,3 +1,16 @@
+/* Full-width wrapper carries the topo background */
+.career-section-wrapper {
+  width: 100%;
+  position: relative;
+  z-index: 20;
+  background-color: #0d0d0d;
+  background-image: url('/topo-bg.svg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .career-section {
   display: flex;
   flex-direction: column;
@@ -45,7 +58,7 @@
 }
 
 .career-info-box p {
-  width: 40%;
+  width: 48%;
   font-size: 14px;
   font-weight: 300;
   margin: 0;
@@ -54,16 +67,16 @@
 
 .career-info-in {
   display: flex;
-  width: 40%;
+  width: 48%;
   justify-content: space-between;
-  gap: 50px;
+  gap: 20px;
 }
 
 .career-info h3 {
-  font-size: 48px;
+  font-size: clamp(20px, 2.5vw, 28px);
   margin: 0;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 1.2;
 }
 
 .career-info h4 {
@@ -152,7 +165,6 @@
   .career-info h4 {
     font-size: 22px;
     line-height: 24px;
-    width: 180px;
   }
 
   .career-info h5 {

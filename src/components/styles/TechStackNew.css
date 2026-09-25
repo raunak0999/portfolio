@@ -7,6 +7,13 @@
   justify-content: center;
   overflow: hidden;
   padding: 80px 0;
+  background-color: var(--backgroundColor);
+  background-image: url('/topo-bg.svg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 20;
 }
 
 /* Video Background */

@@ -73,13 +73,7 @@ div.resume-button span {
   align-items: center;
 }
 .check-line {
-  position: fixed;
-  top: 655px;
-  left: 0;
-  height: 1px;
-  background-color: #ffffff;
-  width: 100%;
-  z-index: 99999;
+  display: none;
 }
 @media only screen and (min-width: 900px) {
   .social-icons {

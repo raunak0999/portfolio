@@ -4,6 +4,7 @@
   justify-content: left;
   place-items: center;
   position: relative;
+  z-index: 20;
   opacity: 1;
   height: auto;
   width: var(--cWidth);
@@ -22,6 +23,18 @@
   font-weight: 400;
   color: var(--accentColor);
   margin-bottom: 15px;
+  animation: aboutHeadingReveal 1.2s ease forwards;
+}
+
+@keyframes aboutHeadingReveal {
+  from {
+    letter-spacing: 12px;
+    opacity: 0;
+  }
+  to {
+    letter-spacing: 4px;
+    opacity: 1;
+  }
 }
 
 .about-me p {
@@ -77,16 +90,20 @@
 }
 @media only screen and (min-width: 1025px) {
   .about-section {
-    width: var(--cWidth);
+    width: 100%;
+    max-width: 100%;
     justify-content: right;
-    max-width: 1920px;
     height: var(--vh);
     padding: 0px;
+    padding-right: calc((100% - var(--cWidth)) / 2);
+    box-sizing: border-box;
     opacity: 1;
   }
   .about-me {
     padding: 0px;
     width: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
   }
   .about-me p {
     font-size: 1.9vw;
